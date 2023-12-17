@@ -10,7 +10,7 @@ const App:React.FC =()=> {
   const[todos, setTodos] = useState<Todo[]>([]);
   const handleAdd = (e:React.FormEvent)=>{
     
-    
+    // updated
     e.preventDefault()
   
     if(todo){
